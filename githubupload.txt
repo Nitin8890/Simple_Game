@@ -1,0 +1,11 @@
+git config --global user.name <myname>
+git config --global user.email <mymail>
+git init
+git add .
+git commit -m "Initial commit"
+git status(to check how many files are uploaded or not uploaded)
+ssh-keygen -t ed25519 -C <"your_email@example.com">
+tail <path to id_rsa.pub>//add this key to github account(setting-> ssh key -> generate new key ->add)
+ssh link copy karke
+git remote add origin <paste ssh link from repository>
+git push origin master
