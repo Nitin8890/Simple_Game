@@ -1,0 +1,57 @@
+body {
+    background-color: indianred;
+}
+
+.Mhead {
+    font-family: 'Rampart One', cursive;
+    font-size: xx-large;
+    font-size: 140px;
+    color: chartreuse;
+    text-align: center;
+    margin: 20px;
+
+}
+
+#head {
+
+    font-family: 'Rampart One', cursive;
+    font-size: xx-large;
+    font-size: 140px;
+    color: chartreuse;
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.ptag {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.p1,
+.p2 {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 80px;
+}
+
+.box1,
+.box2 {
+    font-size: 80px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
